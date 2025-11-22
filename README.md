@@ -6,6 +6,13 @@ A clean and educational implementation of a 5-stage pipelined RISC-V RV32I CPU, 
 This CPU includes pipeline registers, forwarding, hazard detection, branching, load/store, ALU, and a simple instruction/data memory model.
 
 A Yosys-generated CPU datapath diagram and the full EDA Playground output (result.zip) are also provided.
+## 🔗 Run Online on EDA Playground
+
+You can run and simulate this CPU directly in **EDA Playground**:
+
+[Run this design on EDA Playground](https://www.edaplayground.com/x/bg_J)
+
+
 
 🚀 Features
 ✔️ Fully pipelined 5-stage architecture
