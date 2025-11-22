@@ -1,4 +1,4 @@
-📘 RISC-V 5-Stage Pipelined CPU
+## 📘 RISC-V 5-Stage Pipelined CPU
 Verilog • SystemVerilog • Yosys • Icarus • EDA Playground Compatible
 
 A clean and educational implementation of a 5-stage pipelined RISC-V RV32I CPU, built using SystemVerilog and verified using a custom testbench.
@@ -14,7 +14,7 @@ You can run and simulate this CPU directly in **EDA Playground**:
 
 
 
-🚀 Features
+#🚀 Features
 ✔️ Fully pipelined 5-stage architecture
 IF → ID → EX → MEM → WB
 
@@ -54,7 +54,7 @@ SVG diagram (cpu_pipeline.svg)
 
 Full build output (result.zip)
 
-📂 Repository Structure
+#📂 Repository Structure
 riscv-pipeline-cpu/
 │
 ├── design.sv          # Full CPU implementation (5-stage pipeline)
@@ -64,7 +64,7 @@ riscv-pipeline-cpu/
 ├── result.zip         # Full EDA Playground “Make files downloadable” output
 └── README.md          # Documentation
 
-🔧 Running Locally
+#🔧 Running Locally
 1️⃣ Install dependencies
 sudo apt install iverilog yosys
 
@@ -80,7 +80,7 @@ Output generated:
 
 cpu_pipeline.svg
 
-🎮 Running on EDA Playground
+#🎮 Running on EDA Playground
 
 1️⃣ Go to EDAPlayground.com
 2️⃣ Choose:
@@ -110,7 +110,7 @@ run.ys
 5️⃣ Click Run
 The SVG diagram appears below the output.
 
-🧪 Test Program Included
+#🧪 Test Program Included
 
 The testbench automatically encodes & runs the following instructions:
 
@@ -133,7 +133,7 @@ add  x10, x6, x1
 
 Results (register/memory) are printed at end of simulation.
 
-🖼 CPU Diagram
+#🖼 CPU Diagram
 
 A high-quality Yosys schematic of the CPU datapath is included:
 
@@ -141,7 +141,7 @@ cpu_pipeline.svg
 
 You can view it directly on GitHub.
 
-📦 Pre-generated Output
+#📦 Pre-generated Output
 
 A complete EDA Playground build is also included:
 
@@ -158,7 +158,7 @@ Execution shell script
 
 Useful for reproducing the workflow.
 
-🤝 Contributing
+#🤝 Contributing
 
 This project is designed for learning.
 Feel free to open Issues or Pull Requests if you want to:
@@ -173,7 +173,7 @@ Create a better diagram
 
 Add waveform examples
 
-⭐ Acknowledgments
+#⭐ Acknowledgments
 
 Thanks to open-source tools:
 Yosys, Icarus Verilog, EDA Playground, RISC-V community.
