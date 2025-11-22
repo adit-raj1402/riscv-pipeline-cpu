@@ -1,4 +1,4 @@
-## 📘 RISC-V 5-Stage Pipelined CPU
+### 📘 RISC-V 5-Stage Pipelined CPU
 Verilog • SystemVerilog • Yosys • Icarus • EDA Playground Compatible
 
 A clean and educational implementation of a 5-stage pipelined RISC-V RV32I CPU, built using SystemVerilog and verified using a custom testbench.
