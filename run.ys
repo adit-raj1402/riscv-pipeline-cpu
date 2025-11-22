@@ -1,0 +1,15 @@
+# run.ys - Yosys script for EDA Playground
+read_verilog -sv design.sv
+
+# top module name
+hierarchy -top cpu
+
+# passes
+proc; opt; fsm; opt; memory; opt; techmap; opt
+
+# generate diagram
+show -format svg -prefix cpu_pipeline
+
+# exports
+write_verilog synthesized.v
+write_json synthesized.json
